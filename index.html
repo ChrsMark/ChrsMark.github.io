@@ -3,10 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        <title>Christos Markou | Portfolio</title>
+    <style>
+        body {
+            background: #181A1B;
+            color: #ECECEC;
+            font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 2rem 1.5rem;
+            background: #232526;
+            border-radius: 18px;
+            box-shadow: 0 2px 24px rgba(0,0,0,0.2);
+        }
+        h1, h2 {
+            color: #F3F3F3;
+            font-weight: 600;
+            margin-top: 0;
+        }
+        h1 {
+            font-size: 2.3rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            margin-top: 2.5rem;
+        }
+        .desc {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        ul.talks {
+            list-style: none;
+            padding: 0;
+        }
+        ul.talks li {
+            background: #222426;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.09);
+        }
+        a {
+            color: #8ecae6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 1rem 0.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Your existing content here -->
+    <div class="container">
+        <h1>About me</h1>
+        <div class="desc">
+            <p>Christos Markou is a Principal Software Engineer and <a href="https://www.cncf.io/people/ambassadors/" target="_blank">CNCF Ambassador</a> with deep expertise in systems observability, cloud-native technologies, and open-source software.</p>
+            <p>With a background in <a href="https://www.ntua.gr/en/schools/item/3-school-of-electrical-and-computer-engineering" target="_blank">Electrical and Computer Engineering</a> from NTUA, he has worked across various roles, from backend SaaS development to research in distributed monitoring systems.</p>
+            <p>Passionate about observability and the cloud-native ecosystem, he has contributed to widely used projects like <a href="https://github.com/elastic/beats" target="_blank">Elastic Beats</a> and <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib" target="_blank">OpenTelemetry Collector Contrib</a>. Christos is an <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib" target="_blank">OpenTelemetry Collector Contrib</a> approver and actively works on <a href="https://github.com/open-telemetry/semantic-conventions" target="_blank">Semantic Conventions</a> stability in systems and Kubernetes areas. Committed to open collaboration and community-driven evolution, he enjoys sharing insights through blog posts and speaking at conferences and events, engaging with users and the broader community.</p>
+        </div>
+        <h2>Talks & Recordings</h2>
+        <ul class="talks">
+            <li>
+                <strong>Talk Title Placeholder 1</strong><br>
+                <a href="#">Video Link Placeholder</a>
+            </li>
+            <li>
+                <strong>Talk Title Placeholder 2</strong><br>
+                <a href="#">Video Link Placeholder</a>
+            </li>
+            <li>
+                <strong>Talk Title Placeholder 3</strong><br>
+                <a href="#">Video Link Placeholder</a>
+            </li>
+        </ul>
+    </div>
 
     <div style="text-align:center; margin:32px 0 0 0;">
         <a href="https://github.com/ChrsMark" target="_blank" style="margin-right:20px;">
