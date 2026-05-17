@@ -1,0 +1,23 @@
+# Claude Code local config
+.claude/
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
