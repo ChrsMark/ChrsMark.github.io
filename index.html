@@ -22,17 +22,17 @@
             --bg-card:            #161b22;
             --bg-hover:           #1c2128;
             --bg-badge-blue:      #0d1f2d;
-            --bg-badge-green:     #0b2010;
+            --bg-badge-green:     #1e1609;
             --border-default:     #21262d;
             --border-hover:       #30363d;
             --border-badge-blue:  #1f4e6e;
-            --border-badge-green: #1a3d27;
+            --border-badge-green: #5c3d0a;
             --text-strong:        #e6edf3;
             --text-primary:       #c9d1d9;
             --text-muted:         #8b949e;
             --text-dim:           #484f58;
             --text-dim-mobile:    #3d4450;
-            --accent-green:       #3fb950;
+            --accent-green:       #d4a64a;
             --link-blue:          #8ecae6;
             --link-blue-hover:    #a8d8f0;
             --toggle-track-bg:    #161b22;
@@ -44,17 +44,17 @@
             --bg-card:            #ffffff;
             --bg-hover:           #f6f8fa;
             --bg-badge-blue:      #ddf4ff;
-            --bg-badge-green:     #dafbe1;
+            --bg-badge-green:     #fef9e8;
             --border-default:     #d0d7de;
             --border-hover:       #afb8c1;
             --border-badge-blue:  #54aeff;
-            --border-badge-green: #4ac26b;
+            --border-badge-green: #c89200;
             --text-strong:        #0d1117;
             --text-primary:       #1f2328;
             --text-muted:         #59636e;
             --text-dim:           #6e7781;
             --text-dim-mobile:    #8c959f;
-            --accent-green:       #1a7f37;
+            --accent-green:       #9a6f00;
             --link-blue:          #0969da;
             --link-blue-hover:    #0550ae;
             --toggle-track-bg:    #eaeef2;
@@ -103,17 +103,10 @@
             letter-spacing: -0.5px;
         }
 
-        .hero-name::before {
-            content: '> ';
-            color: var(--accent-green);
-            font-weight: 400;
-        }
-
         .hero-tagline {
             font-size: 0.95rem;
             color: var(--text-muted);
             margin: 0 0 1rem 0;
-            font-family: 'JetBrains Mono', monospace;
         }
 
         .badges {
@@ -154,14 +147,9 @@
         /* ── Sections ── */
         h2 {
             font-size: 0.85rem;
-            font-family: 'JetBrains Mono', monospace;
             font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
             color: var(--text-muted);
             margin: 2.5rem 0 1rem 0;
-            padding-left: 0.75rem;
-            border-left: 3px solid var(--accent-green);
         }
 
         /* ── Lists ── */
@@ -206,17 +194,11 @@
             font-size: 0.82rem;
             color: var(--link-blue);
             text-decoration: none;
-            font-family: 'JetBrains Mono', monospace;
         }
 
         .item-link:hover {
             text-decoration: underline;
             color: var(--link-blue-hover);
-        }
-
-        .item-link::before {
-            content: '↗ ';
-            font-style: normal;
         }
 
         .item-meta {
